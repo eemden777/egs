@@ -1,0 +1,132 @@
+#flex {
+  display: flex;
+
+  height: 110px;
+  width: 1370px;
+background-color: #1c8adbff
+
+
+}
+
+
+.box {
+  margin: 10px;
+  color: white;
+  text-align: center
+  
+
+}
+
+
+li:hover {
+  color: #ff28f1;
+  cursor: pointer;
+ 
+
+}
+
+
+ul {
+  margin: 30px ;
+  padding:  15px;
+  text-align: center;
+}
+
+li {
+  color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  font-weight: 350;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 190px;  
+}
+
+
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+
+}
+
+.boxa {
+text-align: center;
+  margin: 10px;
+  border: 2px solid #1c8adbff;
+  border-radius: 10px;
+  width: 300px;
+  height: 500px;
+
+   
+}
+
+.boxb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+  border: 2px solid #1c8adbff;
+  border-radius: 10px;
+  width: 1000px;
+  height: 500px;
+  
+   
+}
+
+.boxb-1 {
+  text-align: center;
+  margin: 10px;
+  border: 2px solid #1c8adbff;
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+
+   
+}
+
+.boxb-2 {
+  text-align: center;
+  margin: 10px;
+  border: 2px solid #1c8adbff;
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+ 
+   
+}
+
+.boxb-3 {
+  justify-content: center;
+  text-align: center;
+  margin: 10px;
+  border: 2px solid #1c8adbff;
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+  
+   
+}
+
+.boxb-4 {
+  text-align: center;
+  margin: 10px;
+  border: 2px solid #1c8adbff;
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+   
+}
+
+video {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Pour remplir le conteneur */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1; /* Derrière le contenu */
+}
